@@ -1,0 +1,58 @@
+[
+  {
+    "id": "steam-mix-01",
+    "title": "STEAM Experiments",
+    "date": "2026-11-23",
+    "time": "05:30 PM - 06:15 PM",
+    "duration": "45 minutes",
+    "ageGroup": "2 to 4.5 years",
+    "location": "At home studio",
+    "description": "A playful STEAM session with sensory science, simple engineering challenges, and art-based experimentation designed for curious toddlers.",
+    "highlights": [
+      "Hands-on experiments"
+    ],
+    "bookingUrl": "https://www.eventbrite.ca/e/steam-by-tiny-thinkers-club-tickets-2004823898248?aff=oddtdtcreator"
+  },
+  {
+    "id": "steam-mix-02",
+    "title": "STEAM Experiments",
+    "date": "2026-11-30",
+    "time": "05:30 PM - 06:15 PM",
+    "duration": "45 minutes",
+    "ageGroup": "2 to 4.5 years",
+    "location": "At home studio",
+    "description": "Creative building time where toddlers stack, test, and reimagine simple structures using playful materials and guided challenges.",
+    "highlights": [
+      "Hands-on experiments"
+    ],
+    "bookingUrl": "https://www.eventbrite.ca/e/steam-by-tiny-thinkers-club-tickets-2004826657501?aff=oddtdtcreator"
+  },
+  {
+    "id": "steam-mix-03",
+    "title": "STEAM Experiments",
+    "date": "2026-12-07",
+    "time": "05:30 PM - 06:15 PM",
+    "duration": "45 minutes",
+    "ageGroup": "2 to 4.5 years",
+    "location": "At home studio",
+    "description": "A movement-driven STEAM session focused on motion, balance, and curiosity through simple experiments inspired by nature.",
+    "highlights": [
+      "Hands-on experiments"
+    ],
+    "bookingUrl": "https://www.eventbrite.ca/e/steam-by-tiny-thinkers-club-tickets-2004826922293?aff=oddtdtcreator"
+  },
+  {
+    "id": "steam-mix-04",
+    "title": "STEAM Experiments",
+    "date": "2026-12-14",
+    "time": "05:30 PM - 06:15 PM",
+    "duration": "45 minutes",
+    "ageGroup": "2 to 4.5 years",
+    "location": "At home studio",
+    "description": "A movement-driven STEAM session focused on motion, balance, and curiosity through simple experiments inspired by nature.",
+    "highlights": [
+      "Hands-on experiments"
+    ],
+    "bookingUrl": "https://www.eventbrite.ca/e/steam-by-tiny-thinkers-club-tickets-2004826952383?aff=oddtdtcreator"
+  }
+]
