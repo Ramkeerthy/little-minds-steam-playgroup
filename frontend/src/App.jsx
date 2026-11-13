@@ -67,7 +67,7 @@ function App() {
   useEffect(() => {
     const loadConfig = async () => {
       try {
-        const response = await fetch('/eligibility-config.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}eligibility-config.json`);
         if (response.ok) {
           const config = await response.json();
           if (config?.center && config.radiusKm) {
@@ -81,7 +81,7 @@ function App() {
 
     const loadSessions = async () => {
       try {
-        const response = await fetch('/sessions.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}sessions.json`);
         if (!response.ok) {
           throw new Error('Unable to load sessions');
         }
