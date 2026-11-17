@@ -310,13 +310,15 @@ function App() {
 
                           <Box className="detail-info-box">
                             <Typography className="detail-label">Age group</Typography>
-                            <Typography className="detail-value">Toddlers 2.5 to 4 years</Typography>
+                            <Typography className="detail-value">
+                              {selectedSession?.ageGroup || 'Age not specified'}
+                            </Typography>
                           </Box>
 
                           <Box className="detail-info-box">
                             <Typography className="detail-label">What children will do</Typography>
                             <Typography className="detail-value">
-                              Hands-on building, sensory play, storytelling, early science exploration, and creative movement.
+                              {selectedSession?.description || 'Hands-on STEAM activities designed for curious young learners.'}
                             </Typography>
                           </Box>
 
@@ -359,13 +361,15 @@ function App() {
 
               <Box className="detail-info-box">
                 <Typography className="detail-label">Age group</Typography>
-                <Typography className="detail-value">Toddlers 2.5 to 4 years</Typography>
+                <Typography className="detail-value">
+                  {selectedSession?.ageGroup || 'Age not specified'}
+                </Typography>
               </Box>
 
               <Box className="detail-info-box">
                 <Typography className="detail-label">What children will do</Typography>
                 <Typography className="detail-value">
-                  Hands-on building, sensory play, storytelling, early science exploration, and creative movement.
+                  {selectedSession?.description || 'Hands-on STEAM activities designed for curious young learners.'}
                 </Typography>
               </Box>
 
@@ -381,7 +385,7 @@ function App() {
             <Box className="postal-modal" onClick={(event) => event.stopPropagation()}>
               <Typography className="postal-title">Check your eligibility</Typography>
               <Typography className="postal-description">
-                Enter your postal code to confirm you are within 5 km of our neighborhood playgroup before we reserve a spot.
+                Enter your postal code to confirm you are within {serviceAreaConfig.radiusKm} km of our neighborhood playgroup before we reserve a spot.
               </Typography>
 
               <Box component="form" onSubmit={handlePostalSubmit} className="postal-form">

@@ -5,11 +5,13 @@
     "date": "2026-11-23",
     "time": "05:30 PM - 06:15 PM",
     "duration": "45 minutes",
-    "ageGroup": "2 to 4.5 years",
+    "ageGroup": "Toddlers 2 to 3 years",
     "location": "At home studio",
-    "description": "A playful STEAM session with sensory science, simple engineering challenges, and art-based experimentation designed for curious toddlers.",
+    "description": "Children will use colored water and paper towels to explore how water travels and colors blend. This hands-on activity introduces absorption and color mixing through playful observation.",
     "highlights": [
-      "Hands-on experiments"
+      "Color mixing",
+      "Water and paper towels",
+      "Absorption experiment"
     ],
     "bookingUrl": "https://www.eventbrite.ca/e/steam-by-tiny-thinkers-club-tickets-2004823898248?aff=oddtdtcreator"
   },
@@ -19,7 +21,7 @@
     "date": "2026-11-30",
     "time": "05:30 PM - 06:15 PM",
     "duration": "45 minutes",
-    "ageGroup": "2 to 4.5 years",
+    "ageGroup": "Toddlers 2 to 3 years",
     "location": "At home studio",
     "description": "Creative building time where toddlers stack, test, and reimagine simple structures using playful materials and guided challenges.",
     "highlights": [
@@ -33,7 +35,7 @@
     "date": "2026-12-07",
     "time": "05:30 PM - 06:15 PM",
     "duration": "45 minutes",
-    "ageGroup": "2 to 4.5 years",
+    "ageGroup": "Toddlers 2 to 3 years",
     "location": "At home studio",
     "description": "A movement-driven STEAM session focused on motion, balance, and curiosity through simple experiments inspired by nature.",
     "highlights": [
@@ -47,7 +49,7 @@
     "date": "2026-12-14",
     "time": "05:30 PM - 06:15 PM",
     "duration": "45 minutes",
-    "ageGroup": "2 to 4.5 years",
+    "ageGroup": "Toddlers 2 to 3 years",
     "location": "At home studio",
     "description": "A movement-driven STEAM session focused on motion, balance, and curiosity through simple experiments inspired by nature.",
     "highlights": [
