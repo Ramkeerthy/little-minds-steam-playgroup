@@ -241,7 +241,9 @@ function App() {
             <Box className="hero-highlights">
               <Box className="hero-highlight-item">
                 <Typography className="highlight-label">Age Group</Typography>
-                <Typography className="highlight-text">Ages 2 to 4.5</Typography>
+                <Typography className="highlight-text">
+                  Ages {sessions[0]?.ageGroup?.replace(/^Toddlers\s+/i, '').replace(/\s+years?$/i, '') || '2 to 4.5'}
+                </Typography>
               </Box>
               <Box className="hero-highlight-item">
                 <Typography className="highlight-label">Group Size</Typography>
