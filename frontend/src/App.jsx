@@ -316,6 +316,13 @@ function App() {
                           </Box>
 
                           <Box className="detail-info-box">
+                            <Typography className="detail-label">Setting</Typography>
+                            <Typography className="detail-value">
+                              Activities take place on the floor over a clean carpet in our cozy home space. Children explore seated at floor level.
+                            </Typography>
+                          </Box>
+
+                          <Box className="detail-info-box">
                             <Typography className="detail-label">What children will do</Typography>
                             <Typography className="detail-value">
                               {selectedSession?.description || 'Hands-on STEAM activities designed for curious young learners.'}
@@ -363,6 +370,13 @@ function App() {
                 <Typography className="detail-label">Age group</Typography>
                 <Typography className="detail-value">
                   {selectedSession?.ageGroup || 'Age not specified'}
+                </Typography>
+              </Box>
+
+              <Box className="detail-info-box">
+                <Typography className="detail-label">Setting</Typography>
+                <Typography className="detail-value">
+                  Activities take place on the floor over a clean carpet in our cozy home space. Children explore seated at floor level.
                 </Typography>
               </Box>
 
@@ -424,7 +438,7 @@ function App() {
               Every great adventure starts with a curious child. Our son <strong>Viaan</strong> began attending monthly library STEAM sessions when he was just 8 months old. We fell completely in love with how he engaged, experimented, and lit up with every new sensory experience and block tower.
             </Typography>
             <Typography className="about-text">
-              Now at 2.5 years old, we wanted to expand that magic. Created by Alekhya and family, <strong>Tiny Tinkerers Club</strong> is a warm, welcoming home playgroup designed for children ages 2 to 4.5 and their parents to explore, learn, and build lasting friendships together.
+              Now at 2.5 years old, we wanted to expand that magic. Created by Alekhya and family, <strong>Tiny Tinkerers Club</strong> is a warm, welcoming home playgroup designed for children ages {sessions[0]?.ageGroup?.replace(/^Toddlers\s+/i, '') || '2 to 4.5 years'} and their parents to explore, learn, and build lasting friendships together.
             </Typography>
           </Box>
 
@@ -460,7 +474,7 @@ function App() {
               <Box className="pillar-card">
                 <Typography className="pillar-icon">🛡️</Typography>
                 <Typography className="pillar-title">Safety &amp; Comfort</Typography>
-                <Typography className="pillar-text">A calm, toddler-proof home environment tailored for little learners.</Typography>
+                <Typography className="pillar-text">A calm, toddler-proof home environment where children explore and create on the floor over a clean carpet.</Typography>
               </Box>
               <Box className="pillar-card">
                 <Typography className="pillar-icon">🎯</Typography>
