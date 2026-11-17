@@ -57,6 +57,9 @@ function App() {
   const [showPostalCheck, setShowPostalCheck] = useState(false);
   const [postalCode, setPostalCode] = useState('');
   const [postalStatus, setPostalStatus] = useState({ eligible: false, message: '' });
+  const configuredAgeRange = sessions[0]?.ageGroup
+    ?.replace(/^Toddlers\s+/i, '')
+    .replace(/\s+years?$/i, '') || '2 to 4.5';
   const [serviceAreaConfig, setServiceAreaConfig] = useState({
     center: { lat: 42.9872, lng: -81.2496 },
     radiusKm: 5,
@@ -235,14 +238,14 @@ function App() {
             <Typography className="hero-tagline">Little hands, big discoveries!</Typography>
             <Typography variant="h1" className="hero-heading">Welcome to Tiny Tinkerers Club</Typography>
             <Typography className="hero-subheadline">
-              A free, cozy neighborhood playgroup where toddlers and early preschoolers (ages 2–4.5) explore, build, and make friends through hands-on Science, Technology, Engineering, Arts, and Math.
+              A free, cozy neighborhood playgroup where toddlers and early preschoolers (ages {configuredAgeRange}) explore, build, and make friends through hands-on Science, Technology, Engineering, Arts, and Math.
             </Typography>
 
             <Box className="hero-highlights">
               <Box className="hero-highlight-item">
                 <Typography className="highlight-label">Age Group</Typography>
                 <Typography className="highlight-text">
-                  Ages {sessions[0]?.ageGroup?.replace(/^Toddlers\s+/i, '').replace(/\s+years?$/i, '') || '2 to 4.5'}
+                  Ages {configuredAgeRange}
                 </Typography>
               </Box>
               <Box className="hero-highlight-item">
@@ -440,7 +443,7 @@ function App() {
               Every great adventure starts with a curious child. Our son <strong>Viaan</strong> began attending monthly library STEAM sessions when he was just 8 months old. We fell completely in love with how he engaged, experimented, and lit up with every new sensory experience and block tower.
             </Typography>
             <Typography className="about-text">
-              Now at 2.5 years old, we wanted to expand that magic. Created by Alekhya and family, <strong>Tiny Tinkerers Club</strong> is a warm, welcoming home playgroup designed for children ages {sessions[0]?.ageGroup?.replace(/^Toddlers\s+/i, '') || '2 to 4.5 years'} and their parents to explore, learn, and build lasting friendships together.
+              Now at 2.5 years old, we wanted to expand that magic. Created by Alekhya and family, <strong>Tiny Tinkerers Club</strong> is a warm, welcoming home playgroup designed for children ages {configuredAgeRange} years and their parents to explore, learn, and build lasting friendships together.
             </Typography>
           </Box>
 
